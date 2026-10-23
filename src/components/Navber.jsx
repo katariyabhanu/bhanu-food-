@@ -28,10 +28,13 @@ export default function Navber() {
     <div id="navbar">
       <MDBNavbar light bgColor="light">
         <MDBContainer fluid>
-          <MDBNavbarBrand id="domino">BCA Tadka Town</MDBNavbarBrand>
+          <MDBNavbarBrand id="domino" className="brand">
+            <img src="/mylogo.png" alt="BCA Tadka Town logo" />
+            <span>BCA Tadka Town</span>
+          </MDBNavbarBrand>
 
-          <Link to="/allproduct" className="navheading">
-            <MDBIcon className="allproduct" fas icon="utensils" />
+          <Link to="/allproduct" className="navheading our-menu">
+            Our Menu
           </Link>
 
           <form onSubmit={handleSearch} className="navbar-search">

@@ -1,0 +1,148 @@
+#navbar {
+    box-shadow: 2px 2px 3px 3px gray;
+}
+
+#hello {
+    height: 270px;
+    width: 356px;
+}
+
+#titleheading {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #362d2d;
+}
+
+#textheading {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    color: #2D3436;
+}
+
+#button {
+    background-color: #4634eb;
+    height: 45px;
+    width: 250px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#card {
+    box-shadow: 2px 3px 3px 3px gray;
+}
+
+#domino {
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: red;
+}
+
+.navheading {
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0 12px;
+    transition: color 0.3s ease;
+}
+
+#priceheading {
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 600;
+    color: #2D3436;
+}
+
+#supertag {
+    background-color: #006491;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+
+.allproduct {
+    color: #E31837;
+}
+
+.allproduct:hover {
+    color: #006491;
+}
+
+.cart {
+    color: red;
+}
+
+.cart:hover {
+    color: #006491;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/* Navbar search bar */
+.navbar-search {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 44px;
+    margin: 0 10px;
+    padding: 4px 6px 4px 16px;
+    background-color: #FFFFFF;
+    border: 2px solid #E5E7EB;
+    border-radius: 25px;
+}
+
+.navbar-search:focus-within {
+    border-color: #006491;
+    box-shadow: 0 0 0 4px rgba(0, 100, 145, 0.12);
+}
+
+.navbar-search input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #252525;
+    font-size: 15px;
+}
+
+.navbar-search input::placeholder {
+    color: #858585;
+}
+
+.navbar-search button {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 50%;
+    background-color: #006491;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-search button:hover {
+    background-color: #004F73;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .navbar-search {
+        width: 100%;
+        margin: 10px 0 4px;
+    }
+}
